@@ -1,0 +1,44 @@
+@media (max-width: 1105px) {
+    header {
+        height: 222px;
+        
+    }
+    nav ul li
+    {
+        padding: 0px 4px;
+        font-size: 10px;
+
+    }
+    
+    .containerHeader
+    {
+        padding: 0 2vw;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px;
+    }
+    .search
+    {
+        width: 59vw;
+    }
+    .right {
+
+        flex-direction: column;
+        margin-top: 30px;
+
+    }
+
+    .right-box {
+        display: flex;
+        margin: 12px;
+    }
+}
+@media ( max-width:400px)
+{
+ .search{
+     width: 80vw;
+ }
+}
